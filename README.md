@@ -8,6 +8,7 @@ To run the default test cases: ruby test.rb
 ## Features
 * Modular code
 * Handles simple edge cases
+* Test cases
 
 ## Version
 ruby 2.5.1

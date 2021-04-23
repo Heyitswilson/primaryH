@@ -3,7 +3,14 @@
 find_common_films accepts an array of integers and returns an array of strings
 
 ## Setup
-To run the default test cases: ruby test.rb 
+* To run the default test cases: ruby test.rb 
+  * It will print the following: 
+```ruby 
+  "find_common_films([1, 2, 67])" # test case
+  "PASS" # PASS or FAIL
+  "Results =>"
+  "http://swapi.dev/api/films/6/.json" # function output
+```
 
 ## Features
 * Modular code

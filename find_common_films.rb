@@ -7,7 +7,6 @@ def swapi_query(id)
 end
 
 def character_queries(character_ids)
-    base_url = "https://swapi.dev/api/people/"
     data = []
     for id in character_ids do
         data.push(swapi_query(id)["films"])

@@ -16,7 +16,7 @@ find_common_films accepts an array of integers and returns an array of strings
 * Modular code
 * Handles edge cases
    * The exception is if find_common_files is given an invalid Id, such as 9999999
-   * Solution: Use an object to transfer data between functions; if swapi returns an error, take that error message and save it in object[:error_message]. In the following functions, because !!object[:error_message] returns true, immediately return the concatenated error message.
+   * Solution: Use an object to transfer data between functions; if swapi returns an error, take that error message and save it in hash[:error_message]. In the following functions, because !!hash[:error_message] returns true, immediately return the concatenated error message.
    ```ruby
    {
       :error_message => ['404', 'Not found'],
